@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #495670;
+    border-radius: 10px;
+    
+}
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: #0A192F;
+}
+
+/* .navbar {
+  
+} */
+
+
+.logo {
+    
+  color: #60F4D2;
+
+
+  animation-name: logos;
+  animation-duration: .5s; 
+  transform: translateY(-30px);
+  opacity: 0;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes logos {
+  
+    to {
+         transform: translateY(30px); 
+         opacity: 1;
+        
+    }
+    
+}
+.collect {
+    display: flex;
+    list-style: none;
+    margin-left: 850px;
+    cursor: pointer;
+
+
+    animation-name: collects;
+    animation-duration: 2s;
+    animation-delay: .5s; 
+    transform: translateY(-30px);
+    opacity: 0;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes collects {
+  
+    to {
+         transform: translateY(30px); 
+         opacity: 1;
+        
+    }
+    
+}
+.lists {
+    padding: 13px;
+    font-size: 15px;
+    color: #ddd;
+}
+.lists span {
+    color: #60F4D2;
+}
+.resume {
+    width: 80px;
+    height: 35px;
+    background-color: #0A192F;
+    border-radius: 5px;
+    border: 1px solid #60F4D2;
+    color: #60F4D2;
+
+}
+.resume:hover {
+    background-color: #60f4d148;
+    cursor: pointer;
+}
+.name {
+  color: #60F4D2;
+  margin: 80px 0 0 180px;
+  font-size: 18px;
+
+  animation: name 2s  1.5s   forwards;
+  opacity: 0;
+}
+
+@keyframes name {
+    to {
+        transform: translateY(-20px);
+        opacity: 1;
+
+    }
+    
+}
+.both {
+    font-size: 50px;
+    color: #ffff;
+    margin: 20px 0 0 180px;
+
+    animation: both22 2s  1.5s  forwards;
+    transform: translateY(0);
+    opacity: 0;
+}
+@keyframes both22 {
+    to{
+        transform: translateY(-30px);
+        opacity: 1;
+    }
+}
+
+
+.about {
+    width: 600px;
+    margin: 20px 0 0 180px;
+    color: #6D7894;
+    font-size: 18px;
+    padding-top: 10px;
+
+    animation: about 2s  1.5s   forwards;
+    opacity: 0;
+}
+
+@keyframes about {
+    to {
+        transform: translateY(-20px);
+        opacity: 1;
+
+    }
+    
+}
+
+
+
+.about a {
+    text-decoration: none;
+    color: #60F4D2;
+    font-size: 18px;
+}
+
+.btn {
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #60F4D2;
+    color: #60F4D2;
+    background-color: #0A192F;
+    margin: 80px 0 0 180px;
+    font-size: 14px;
+
+    animation: btn 2s  1.5s   forwards;
+    opacity: 0;
+
+}
+
+@keyframes btn {
+    to {
+        transform: translateY(-20px);
+        opacity: 1;
+
+    }
+    
+}
+.btn:hover {
+    background-color: #60f4d148;
+    cursor: pointer;
+}
+.the_one {
+    width: 10%;
+    position: fixed;
+    left: 50px;
+    bottom: 0;
+    transform: rotate(90deg);
+}
+
+.the_second {
+    width: 10%;
+    position: fixed;
+    left: 1180px;
+    bottom: 0;
+    transform: rotate(90deg);
+}
+
+.gmail {
+    color: #6D7894;
+    margin-left: 1135px;
+    transform: rotate(90deg) translateX(-50px);
+
+    animation: gmail .5s  2.7s   forwards;
+    transform: translateY(0);
+    transform: rotate(90deg);
+    opacity: 0;
+    position: sticky;
+}
+
+@keyframes gmail {
+    to {
+        transform: rotate(0deg);
+        transform: translateY(-10px);
+        opacity: 1;
+    }
+    
+}
+.icons {
+    font-size: 20px;
+    display: flex;
+    color: #A8B2D1;
+
+    animation: anime .5s  2.7s   forwards;
+    opacity: 0;
+    
+}
+
+
+@keyframes anime {
+    from {
+        transform: translateY(0);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(-20px);
+        opacity: 1;
+    }
+    
+}
+
+.fa-github {
+    position: relative;
+    bottom: 160px;
+    left: 100px;
+
+}
+.fa-instagram {
+    position: relative;
+    left: 83px;
+    bottom: 120px;
+}
+.fa-twitter {
+    position: relative;
+    left: 65px;
+    bottom: 80px;
+}
+
+.fa-linkedin {
+    position: relative;
+    left: 48px;
+    bottom: 40px;
+}
+.fa-facebook {
+    position: relative;
+    left: 30px;
+    bottom: 0px;
+}
